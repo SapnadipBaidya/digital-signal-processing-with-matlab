@@ -1,5 +1,5 @@
 f=44100;
-y=audioread('C:\Users\deep_\Downloads\Aurora-Runaway.mp3');
+y=audioread('C:\Users\deep_\Downloads\Aurora-Runaway.mp3'); % inside the single quotes . give the file location
 p=audioplayer(y,f);
 
 num=[1,zeros(1,48000),0.9]; %increasing the delay
